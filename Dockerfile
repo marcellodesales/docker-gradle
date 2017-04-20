@@ -1,8 +1,8 @@
 FROM openjdk:8-jdk
-MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
+MAINTAINER Marcello.desales@gmail.com
 
 # Gradle
-ENV GRADLE_VERSION 3.3
+ENV GRADLE_VERSION 3.5
 ENV GRADLE_SHA c58650c278d8cf0696cab65108ae3c8d95eea9c1938e0eb8b997095d5ca9a292
 
 RUN cd /usr/lib \
